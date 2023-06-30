@@ -1,0 +1,128 @@
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    background-color: #303030;
+    color: white;
+    height: 465px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-page{
+    margin-top: 206px;
+    margin-left: 62px;
+}
+
+.header-page h1{
+    font-size: 40px; 
+    font-weight: 600;
+}
+
+.header-page h3{
+    font-size: 20px; 
+    font-weight: 500;
+}
+
+.info-business {
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-top: 40px;
+    padding-bottom: 45px;
+
+}
+
+.list-info{
+    margin-left: 99px;
+    margin-right: 99px;
+}
+
+.bold-info{
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.describe-history{
+    display: flex;
+    flex-direction: row;
+}
+
+.describe-history #text-history{
+    text-align: justify;
+    margin-top: 302px;
+    max-width: 700px;
+    margin-left: 99px;
+    margin-right: 99px;
+    margin-bottom: 60px;
+}
+
+.describe-history #text-history h1{
+    font-size: 35px;
+}
+
+
+.describe-history #img-history{
+    margin-top: 60px;
+    margin-right: 54px;
+}
+
+footer{
+    background-color: #303030;
+    height: 638px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 54px;
+    padding-top: 97px;
+}
+
+footer #text-footer{
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+footer input{
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 508px;
+    height: 72px;
+    margin-bottom: 62px;
+    color: black;
+    font-size: 24px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    padding-left: 30px;
+
+}
+
+footer input::placeholder{
+    color: rgba(0, 0, 0, 0.30);
+    font-size: 24px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    padding-left: 30px;
+}
+
+footer button{
+    background: #C07212;
+    border-radius: 10px;
+    border: none;
+    height: 74px;
+    width: 286px;
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 60px;
+}
